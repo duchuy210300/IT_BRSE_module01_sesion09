@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{background: linear-gradient(180deg, #333333 0%, #090707 11.98%);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.header {
+    width: 100%;
+    height: 181px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.logo {
+    text-align: center;
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 118px;
+    width: 165px;
+    height: 36.63px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 900;
+    color:  #FFFFFF;
+    background-color: transparent;
+  
+}
+.logo img{
+    height: 33px;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 46px;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+.menu{
+    width: 190px;
+    height: 17px;
+    padding: 0;
+    margin-top: 35px ;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1;
+    color: #FFFFFF;
+}
+.button {
+    height:50px ;
+    width: 204px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.black{
+    background: #1A1919;
+}
+.buttontop{
+    margin-top: 19px ;
+    margin-right: 120px;
+}
+.banner {
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    width: 914px;
+    height: 335px;
+    border-radius: 5PX;
+}
+.sologan {
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 47px;
+}
+.textblue {
+    color:#3775ed ;
+    font-size: 65px;
+}
+.text{
+    font-size: 22px;
+}
+.twobutton {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+.bluebutton {
+    background: #3775ED;
+}
+.mainjmg{
+    width: 1200px;
+    height: 514px;
+    margin: 54px auto 172px auto;
+}
+.sologanmid{
+    padding: 0;
+    width: 755px;
+    height: 93px;
+    margin: 0 auto 80px auto;
+    text-align: center;
+
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 19px;
+}
+.chose {
+    width: 1200px;
+    margin: 0 auto 90px auto ;
+    padding: 0;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    gap: 23px;
+}
+.chosetop {
+    width: calc((100% / 3) - 23px);
+    height: 277px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
+.orangce {
+    background: #C96408;
+    position: relative;
+
+}
+.orangcestikerleft {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+.orangcestikerright {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+.violet {
+    background: #7937BB;
+
+}
+.blue {
+    background: #3775ED;
+
+}
+.choseitem{
+    width: 62px;
+    height: 62px;
+    margin-top: 39px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.choseitem:hover{
+    cursor: pointer;
+
+}
+.chosecontent {
+    font-size: 24px;
+    font-weight: 500;
+    width: 234px;
+    height: 29px;
+    margin-top: 24px;
+}
+
+.contenttext {
+    width: 337px;
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.chosebot {
+    border-radius: 5px;
+    width: 100%;
+    height: 347px;
+    background: #1A1919;
+    color: #FFFFFF;
+    position: relative;
+}
+.chosebot:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.itemW {
+    position: absolute;
+    left:93px;
+    top: 36px;
+}
+
+.itemV {
+    position: absolute;
+    top:93px;
+    right: 36px;
+}
+.itemb {
+    position: absolute;
+    top:25px;
+    left: 50%;
+}
+.itemoctoergam {
+    position: absolute;
+    top:29px;
+    right: 213px;
+}
+.itemBY {
+    position: absolute;
+    bottom: 55px;
+    right: 91px;
+
+}
+.itemJS {
+    position: absolute;
+    bottom: 33px;
+    right: 319px;
+
+}
+.item5 {
+    position: absolute;
+    bottom: 40px;
+    left: 211px;
+}
+.item3 {
+    position: absolute;
+    bottom: 100px;
+    left: 36px;
+}
+.developer{
+    border-top: 1px solid  #282828 ;
+    border-bottom: 1px solid  #282828 ;
+    width: 1200px;
+    padding: 51px 0 86px 0;
+    margin: 0 auto;
+    display:flex ;
+    flex-flow: column;
+
+}
+.developeravata{
+    width: 1200px;
+    height: 636px;
+    display: flex;
+    margin: 77px 0 82px 0;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    gap: 24px;
+    align-items:space-between;
+}
+.developeravata img{
+    width: 282px ;
+    height: 304px;
+    overflow: hidden;
+}
+.buttoncenter{
+    align-self: center;
+    
+}
+/*message*/
+.formassage{
+    margin: 61px 0 0 0;
+    text-align: center;
+}
+.messagetabel {
+    width: 1200px;
+    margin: 72px auto 157px auto ;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items:space-between;
+    gap:27px ;
+}
+.messagebox {
+    width: 378px;
+    height: 152px;
+    padding: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: #1A1919;
+}
+.message {
+    width: 100%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.7;
+
+}
+.name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 0;
+    margin-left: 12px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.messageavata {
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    border: 1px solid #FEC925;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.endpicture{
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto 152px auto;
+}
+.question{
+    background: #3775ED;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 48px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+footer button{
+    margin-top: 36px;
+}
+ .hr{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+    padding: 51px 0 ;
+ }
+.end {
+    width: 1200px;
+    margin: 78px auto 56px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+} 
+.address {
+}
